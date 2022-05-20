@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(lightblue,pink,lightyellow);
+    height: 100vh;
+}
+
+
+.form {
+    height: 500px;
+    line-height: 100px;
+    text-align: center;
+}
+label {
+    font-size: 29px;
+}
+
+input {
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #e0ffff;
+        font-size: 23px;
+        height: 42px;
+        padding: 8px;
+        text-align: center;
+        width: 30%;
+    
+}
+
+button {
+    background-color: #add8e6;
+    font-size: 25px;
+    padding: 10px;
+    width: 270px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.parent {
+    background-color: #add8e6;
+    border: 2px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0.5%;
+    width: 80%;
+}
+
+.child {
+    background-color: pink;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    height: 70px;
+    margin: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 42%;
+}
